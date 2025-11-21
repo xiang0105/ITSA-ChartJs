@@ -1,0 +1,94 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.output {
+    padding: 2rem;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.header, .item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+
+.header div {
+    text-align: center;
+}
+
+.item {
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+}
+
+.item:hover {
+    background-color: #f9f9f9;
+}
+
+.item div {
+    padding: 0.25rem;
+    text-align: center;
+}
+
+select {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004085;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.myChart {
+    max-height: 400px;
+    margin-bottom: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
